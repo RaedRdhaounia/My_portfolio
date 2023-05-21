@@ -1,9 +1,14 @@
-export default function Home() {
+
+
+export default function Projects() {
+
   return (
-    <div
+    <main
       className={`flex min-h-screen flex-col items-center justify-between p-24`}
     >
-      home page for portfolio 
-    </div>
+
+
+    </main>
   )
 }
+

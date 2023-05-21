@@ -15,9 +15,16 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "src/*": ["./src/*"]
+      "src/*"        : ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@pages/*"     : ["./src/pages/*"],
+      "@type/*"      : ["./src/types/*"],
+      "@generator"   : ["./src/components/generators/index.ts"],
+      "@animation"   : ["./src/components/animation/index.ts"],
+      "@icon"        : ["./src/assets/icons/index.ts"],
+      "@pic/*"       : ["./scr/assets/images/*.jpg"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "i18n.js"],
   "exclude": ["node_modules"]
 }
